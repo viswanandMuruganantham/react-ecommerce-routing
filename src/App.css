@@ -1,0 +1,229 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.product-item button {
+  margin-top: 10px;
+}
+
+.cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-page li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-page img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+/* App.css */
+.home-container {
+  text-align: center;
+  padding: 80px 400px;
+  background-color: #f4f4f9;
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.home-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+/* App.css */
+
+/* Container for the Products Page */
+.products-container {
+  padding: 70px;
+  text-align: center;
+  background-color: #666;
+  padding: 80px 520px;
+}
+
+.products-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #5a4c4c;
+  margin-bottom: 20px;
+}
+.products-container h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;  /* Make the text white */
+  margin-bottom: 20px;
+}
+/* Flexbox for product listing */
+.product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Individual product card style */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Product image styling */
+.product-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Product name and price styling */
+.product-name {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cec5c5;
+  margin: 10px 0;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #c2b5b5;
+  margin-bottom: 15px;
+}
+
+/* Button style */
+.add-to-cart-button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #45a049;
+}
+/* App.css */
+
+/* Cart container */
+.cart-container {
+  padding: 20px;
+  text-align: center;
+  padding: 200px 620px;
+  background-color: #767171;
+}
+
+/* Shopping Cart heading */
+.cart-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Message when cart is empty */
+.cart-empty-message {
+  font-size: 18px;
+  color: #ccc;
+  font-style: italic;
+}
+
+/* Cart items list */
+.cart-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Individual cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Product image in cart */
+.cart-item img {
+  width: 50px;
+  border-radius: 5px;
+}
+
+/* Product name and price */
+.cart-item span {
+  font-size: 16px;
+  color: white;
+}
